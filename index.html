@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HTML&CSS 実践</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/reset.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#product">PRODUCT</a></li>
+        <li><a href="#newiteminfo">NEW ITEM INFO</a></li>
+        <li><a href="#price">PRICE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="top">
+      <div class="neon">Hamburger
+      </div>
+    </section>
+    <section id="product">
+      <h2 class="section_title"><mark>~PRODUCT~</mark></h2>
+      <div class="product_wrap">
+        <div class="product_left">
+          <img src="img/ber.png" alt="サービス画像">
+        </div>
+        <div class="product_right">
+          <h1>期間限定ハンバーガー</h1>
+          <p><mark> ＊サイトを見てくださった方限定です！</mark></p>
+          <hr>
+          <p>国産牛１００％使用<br>
+            ○○県産、<strong>一頭から約250ｇ</strong>しか取れない希少部位を使っており<br>
+            ハンバーガー、一つにつき約１５０gのパティ（肉）を使用しております<br>
+            原価ギリギリのラインでやっておりますので、<br>
+            誠に勝手ではございますが,今回はサイトを見た方限定とさせていただいております。<br>
+            <hr>
+            注文条件<br>
+            ・ 注文時に「サイトを見た」とお伝えください<br>
+          ・一家族おひとつまでとさせて頂きます。<br>
+          </p>
+        </div>
+      </div>
+
+
+
+    </section>
+  </main>
+<section id="newiteminfo">
+  <div><h1 class="new_title">new item info</h1></div>
+  <div class="newiteminfo_wrap">
+    <p>2021/6/14 期間限定ハンバーガーのご案内</p>
+    <p>2020/10/31 一夜限り<strong>特大ハンバーガー祭り開催</strong></p>
+    <p>2020/4/15 通常メニューにA,B,Cセット追加のご案内</p>
+  </div>
+</section>
+<section id="price">
+  <div><h2 class="menu_title">PRICE</h2></div>
+  <div class="price_wrap">
+    <table>
+      <div><tr>
+        <th>MENU</th>
+        <th>シンプルビーフバーガー</th>
+        <th>テリヤキチーズバーガー</th>
+        <th>期間限定バーガー</th>
+     
+      </tr> </div>
+    
+      <tr>
+        <td>Aセット（ポテト/ジュース）</td>
+        <td>１５００円</td>
+        <td>１２００円</td>
+        <td>２５００円</td>
+
+      </tr>
+      <tr>
+        <td>Bセット（サラダ/ジュース）</td>
+        <td>１３００円</td>
+        <td>１０００円</td>
+        <td>２３００円</td>
+      
+
+      </tr>
+      <tr>
+        <td>Cセット（ジュース）</td>
+        <td>１１００円</td>
+        <td>８００円</td>
+        <td>２０００円</td>
+      
+      
+      </tr>
+    </table>
+  </div>
+
+</section>
+<section id="contact">
+  <div><h2 class="con_title">Contact</h2></div>
+  <form class="form" method="post"></form>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </div>  
+  <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_mail">
+  </div>
+  <div>
+      <label for="tel">Tell:</label>
+      <input type="tel" id="tel" name="user_tel">
+  </div>
+  <div>
+    <label for="msg">Message:</label>      <textarea id="msg" name="user_message"></textarea>
+  </div>
+  <div class="button_submit">
+    <button class="button" type="submit">送信</button>
+  </div>
+
+</section>
+<footer id="footer">
+  <div>
+    <ul>
+      <li>© 2021 Hamburger All rights reserved.</li>
+      <li>Instagram: @seacret</li>
+      <li>Twitter: @seacret</li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
